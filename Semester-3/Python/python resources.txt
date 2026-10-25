@@ -1,0 +1,3 @@
+python resources:
+
+link: https://chatgpt.com/share/6a8932ad-ebc8-83e8-940f-22935c42d2b7

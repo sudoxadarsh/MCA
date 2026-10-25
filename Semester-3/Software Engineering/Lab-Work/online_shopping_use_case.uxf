@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umletino" version="15.1">
+
+  <!-- Web Customer -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>40</x>
+      <y>170</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+Web Customer</panel_attributes>
+    <additional_attributes>75;20;75;50;45;80;105;80;75;50;45;115;75;80;105;115</additional_attributes>
+  </element>
+
+  <!-- Registered Customer -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>230</x>
+      <y>100</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+Registered
+Customer</panel_attributes>
+    <additional_attributes>90;20;90;50;60;80;120;80;90;50;60;115;90;80;120;115</additional_attributes>
+  </element>
+
+  <!-- New Customer -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>300</y>
+      <w>160</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+New
+Customer</panel_attributes>
+    <additional_attributes>80;20;80;50;50;80;110;80;80;50;50;115;80;80;110;115</additional_attributes>
+  </element>
+
+  <!-- Online Shopping System -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>430</x>
+      <y>40</y>
+      <w>260</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>bg=green
+lt=rect
+&lt;&lt;Subsystem&gt;&gt;
+Online Shopping</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- View Items -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>500</x>
+      <y>125</y>
+      <w>120</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=ellipse
+View Items</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Make Purchase -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>500</x>
+      <y>205</y>
+      <w>120</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=ellipse
+Make
+Purchase</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Checkout -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>500</x>
+      <y>285</y>
+      <w>120</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=ellipse
+Checkout</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Client Register -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>500</x>
+      <y>390</y>
+      <w>120</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=ellipse
+Client
+Register</panel_attributes>
+    <additional_attributes/>
+  </element>
+
+  <!-- Authentication -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>735</x>
+      <y>50</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+&lt;&lt;Service&gt;&gt;
+Authentication</panel_attributes>
+    <additional_attributes>75;20;75;50;45;80;105;80;75;50;45;115;75;80;105;115</additional_attributes>
+  </element>
+
+  <!-- Identity Provider -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>735</x>
+      <y>155</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+Identity
+Provider</panel_attributes>
+    <additional_attributes>75;20;75;50;45;80;105;80;75;50;45;115;75;80;105;115</additional_attributes>
+  </element>
+
+  <!-- Credit Payment Service -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>720</x>
+      <y>275</y>
+      <w>180</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+Credit Payment
+Service</panel_attributes>
+    <additional_attributes>90;20;90;50;60;80;120;80;90;50;60;115;90;80;120;115</additional_attributes>
+  </element>
+
+  <!-- PayPal -->
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>750</x>
+      <y>400</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=actor
+PayPal</panel_attributes>
+    <additional_attributes>65;20;65;50;35;80;95;80;65;50;35;115;65;80;95;115</additional_attributes>
+  </element>
+
+
+  <!-- Web Customer -> View Items -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>180</y>
+      <w>350</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;50;340;10</additional_attributes>
+  </element>
+
+  <!-- Registered Customer -> View Items -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>135</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;20;120;20</additional_attributes>
+  </element>
+
+  <!-- Registered Customer -> Make Purchase -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>160</y>
+      <w>130</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;10;120;65</additional_attributes>
+  </element>
+
+  <!-- New Customer -> View Items -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>310</y>
+      <w>130</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;70;120;0</additional_attributes>
+  </element>
+
+  <!-- New Customer -> Client Register -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>370</y>
+      <w>120</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;25;110;25</additional_attributes>
+  </element>
+
+  <!-- Authentication -> View Items -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>75</y>
+      <w>190</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;80;180;10</additional_attributes>
+  </element>
+
+  <!-- Identity Provider -> View Items -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>135</y>
+      <w>190</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;20;180;70</additional_attributes>
+  </element>
+
+  <!-- Authentication -> Checkout -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>120</y>
+      <w>190</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;185;180;10</additional_attributes>
+  </element>
+
+  <!-- Credit Payment Service -> Checkout -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>290</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;25;180;25</additional_attributes>
+  </element>
+
+  <!-- PayPal -> Checkout -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>330</y>
+      <w>200</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>0;10;190;100</additional_attributes>
+  </element>
+
+  <!-- View Items include Make Purchase -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>555</x>
+      <y>175</y>
+      <w>10</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>5;0;5;35</additional_attributes>
+  </element>
+
+  <!-- Make Purchase include Checkout -->
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>555</x>
+      <y>255</y>
+      <w>10</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+&lt;&lt;include&gt;&gt;</panel_attributes>
+    <additional_attributes>5;0;5;35</additional_attributes>
+  </element>
+
+</diagram>

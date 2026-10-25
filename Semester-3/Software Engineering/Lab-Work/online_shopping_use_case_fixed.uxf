@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+<zoom_level>10</zoom_level>
+
+<!-- WEB CUSTOMER -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>35</x><y>185</y><w>80</w><h>120</h></coordinates>
+<panel_attributes>Web
+Customer</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- REGISTERED CUSTOMER -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>230</x><y>105</y><w>100</w><h>120</h></coordinates>
+<panel_attributes>Registered
+Customer</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- NEW CUSTOMER -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>245</x><y>315</y><w>90</w><h>120</h></coordinates>
+<panel_attributes>New
+Customer</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- SYSTEM BOUNDARY -->
+<element>
+<id>UMLGeneric</id>
+<coordinates><x>390</x><y>35</y><w>245</w><h>505</h></coordinates>
+<panel_attributes>lt=rect
+bg=#e3f0cf
+halign=center
+valign=top
+&lt;&lt;Subsystem&gt;&gt;
+Online Shopping</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- VIEW ITEMS -->
+<element>
+<id>UMLUseCase</id>
+<coordinates><x>455</x><y>120</y><w>115</w><h>42</h></coordinates>
+<panel_attributes>View Items</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- MAKE PURCHASE -->
+<element>
+<id>UMLUseCase</id>
+<coordinates><x>455</x><y>205</y><w>115</w><h>42</h></coordinates>
+<panel_attributes>Make Purchase</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- CHECKOUT -->
+<element>
+<id>UMLUseCase</id>
+<coordinates><x>455</x><y>290</y><w>115</w><h>42</h></coordinates>
+<panel_attributes>Checkout</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- CLIENT REGISTER -->
+<element>
+<id>UMLUseCase</id>
+<coordinates><x>455</x><y>395</y><w>115</w><h>42</h></coordinates>
+<panel_attributes>Client
+Register</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- AUTHENTICATION -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>730</x><y>50</y><w>100</w><h>120</h></coordinates>
+<panel_attributes>&lt;&lt;Service&gt;&gt;
+Authentication</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- IDENTITY PROVIDER -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>730</x><y>155</y><w>100</w><h>120</h></coordinates>
+<panel_attributes>Identity
+Provider</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- CREDIT PAYMENT SERVICE -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>720</x><y>285</y><w>125</w><h>120</h></coordinates>
+<panel_attributes>Credit Payment
+Service</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- PAYPAL -->
+<element>
+<id>UMLActor</id>
+<coordinates><x>750</x><y>405</y><w>90</w><h>120</h></coordinates>
+<panel_attributes>PayPal</panel_attributes>
+<additional_attributes/>
+</element>
+
+<!-- WEB CUSTOMER ASSOCIATIONS -->
+<element>
+<id>Relation</id>
+<coordinates><x>100</x><y>195</y><w>365</w><h>70</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;50;355;20</additional_attributes>
+</element>
+
+<!-- REGISTERED CUSTOMER -> VIEW ITEMS -->
+<element>
+<id>Relation</id>
+<coordinates><x>315</x><y>135</y><w>150</w><h>25</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;12;140;12</additional_attributes>
+</element>
+
+<!-- REGISTERED CUSTOMER -> MAKE PURCHASE -->
+<element>
+<id>Relation</id>
+<coordinates><x>315</x><y>165</y><w>150</w><h>65</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;10;140;55</additional_attributes>
+</element>
+
+<!-- NEW CUSTOMER -> VIEW ITEMS -->
+<element>
+<id>Relation</id>
+<coordinates><x>325</x><y>325</y><w>140</w><h>105</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;90;140;10</additional_attributes>
+</element>
+
+<!-- NEW CUSTOMER -> CLIENT REGISTER -->
+<element>
+<id>Relation</id>
+<coordinates><x>325</x><y>405</y><w>140</w><h>20</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;10;140;10</additional_attributes>
+</element>
+
+<!-- AUTHENTICATION -> VIEW ITEMS -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>70</y><w>205</w><h>70</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;60;195;10</additional_attributes>
+</element>
+
+<!-- AUTHENTICATION -> CHECKOUT -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>105</y><w>205</w><h>205</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;195;195;10</additional_attributes>
+</element>
+
+<!-- IDENTITY PROVIDER -> VIEW ITEMS -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>170</y><w>205</w><h>65</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;10;195;55</additional_attributes>
+</element>
+
+<!-- IDENTITY PROVIDER -> CHECKOUT -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>190</y><w>205</w><h>125</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;120;195;10</additional_attributes>
+</element>
+
+<!-- CREDIT PAYMENT -> CHECKOUT -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>305</y><w>165</w><h>30</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;15;155;15</additional_attributes>
+</element>
+
+<!-- PAYPAL -> CHECKOUT -->
+<element>
+<id>Relation</id>
+<coordinates><x>565</x><y>330</y><w>225</w><h>100</h></coordinates>
+<panel_attributes>lt=-</panel_attributes>
+<additional_attributes>10;10;215;90</additional_attributes>
+</element>
+
+<!-- INCLUDE: VIEW ITEMS -> MAKE PURCHASE -->
+<element>
+<id>Relation</id>
+<coordinates><x>505</x><y>160</y><w>15</w><h>48</h></coordinates>
+<panel_attributes>lt=.&gt;
+&lt;&lt;include&gt;&gt;</panel_attributes>
+<additional_attributes>7;5;7;43</additional_attributes>
+</element>
+
+<!-- INCLUDE: MAKE PURCHASE -> CHECKOUT -->
+<element>
+<id>Relation</id>
+<coordinates><x>505</x><y>245</y><w>15</w><h>48</h></coordinates>
+<panel_attributes>lt=.&gt;
+&lt;&lt;include&gt;&gt;</panel_attributes>
+<additional_attributes>7;5;7;43</additional_attributes>
+</element>
+
+</diagram>
