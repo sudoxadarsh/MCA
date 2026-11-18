@@ -1,0 +1,14 @@
+Cloud Computing:
+
+Date: 17.09.2026
+
+> The instance performance or how to monitor instance
+
+
+- .pem file used here in launching an instance: A PEM file (Privacy Enhanced Mail) is a plain-text file used to store and send cryptographic keys and security certificates.
+
+- Cloud Watch : console
+- Classic Metrics
+- CPU-utilization
+- Network out: this means that on cloud service how much network used over there like surfing the browser using internet that is what it means
+and it show in the cloud watch.
